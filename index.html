@@ -8,29 +8,68 @@
     <title>Foodrush</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="index.js"> </script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Josefin+San&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" <header>
 </head>
 
 <body>
     <header>
-        <nav>
-            <div class="symbol">
-                <h1 class="animate__animated animate__rubberBand"> foodrush</h1>
-            </div>
-            <div class="menu">
-                <a href="">Home</a>
-                <a href="">Offers</a>
-                <a href="">Linkedin</a>
-                <a href="">About us</a>
-                <a href="">Support</a>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="symbol">
+                    <h1 class="animate__animated animate__rubberBand">foodrush</h1>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation" style="background: white; border: 2px solid white;">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+
+
+                            <a class="nav-link active" aria-current="page" href="#" style="color: white;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: white;">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: white;">Offers</a>
+                        </li>
+                        <li class="nav-item dropdown" style="color: white;">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+                                Contact Me
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"
+                                style="background: rgba(0,0,0,0.4)">
+                                <li><a class="dropdown-item" href="#"
+                                        style="color: white; background:rgba(0,0,0,0.4)">Linkedin</a></li>
+                                <li><a class="dropdown-item" href="#"
+                                        style="color: white; background:rgba(0,0,0,0.4)">Github</a></li>
+                                <li><a class="dropdown-item" href="#"
+                                        style="color: white; background:rgba(0,0,0,0.4)">Instagram</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
         <main>
-            <section class="rightside">
+            <section class="rightside1">
                 <div>
                     <h3>Foodrush is my crush</h3>
                     <h1>Our Best Food Is <span class="change_food"></span></h1>
